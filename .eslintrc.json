@@ -1,0 +1,71 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "react",
+    "jest",
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "standard",
+    "standard-react",
+    "eslint-config-google",
+    "plugin:jest/recommended"
+  ],
+  "env": {
+    "jest/globals": true,
+    "browser": true
+  },
+  "rules": {
+    "arrow-body-style": "off",
+    "arrow-parens": "off",
+    "block-spacing": ["error", "always"],
+    "class-methods-use-this": "off",
+    "comma-dangle": ["error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "never"
+      }
+    ],
+    "func-names": "off",
+    "indent": [
+      "error", 2, {
+        "SwitchCase": 1
+      }
+    ],
+    "jsx-quotes": ["error", "prefer-single"],
+    "keyword-spacing": ["error", {"before": true, "after": true}],
+    "max-len": ["error", {"code": 130, "comments": 300}],
+    "new-cap": "off",
+    "no-eval": ["error", {"allowIndirect": true}],
+    "no-multiple-empty-lines": ["error", {"max": 2}],
+    "no-plusplus": "off",
+    "no-return-assign": "off",
+    "quote-props": "off",
+    "require-jsdoc": "off",
+    "template-curly-spacing": ["error", "always"],
+    "react/no-danger": "error",
+    "react/jsx-curly-spacing": ["error", "always"],
+    "react/jsx-filename-extension": "off",
+    "react/jsx-boolean-value": "off",
+    "import/extensions": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/no-unresolved": "off",
+    "import/prefer-default-export": "off",
+    "semi": ["error", "always"],
+    "no-invalid-this": "off",
+    "quotes": ["error", "single", {"allowTemplateLiterals": false}],
+    "object-curly-spacing": ["error", "never"],
+    "no-unused-expressions": 0,
+    "no-undef": 0,
+    "no-unused-vars": 0,
+    "no-use-before-define": 0,
+    "camelcase": 0,
+    "curly": ["error", "all"],
+    "react/jsx-fragments": 0,
+    "jest/no-test-callback": 0
+  }
+}
