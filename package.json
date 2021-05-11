@@ -15,7 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "formsy-react": "^2.0.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0",
     "qhistory": "^1.0.3",
     "qs": "^6.9.1",
