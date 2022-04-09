@@ -16,7 +16,7 @@
   "dependencies": {
     "formsy-react": "^2.0.2",
     "lodash": "^4.17.15",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "qhistory": "^1.0.3",
     "qs": "^6.9.1",
     "react": "^16.9.0",
